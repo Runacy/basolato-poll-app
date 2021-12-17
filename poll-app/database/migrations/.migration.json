@@ -1,0 +1,17 @@
+{
+  "EA68A217F13581669A7D8FD997CB8C564A466D14": {
+    "status": true,
+    "query": "CREATE TABLE \"poll_select\" ('user_id' VARCHAR NOT NULL CHECK (length('user_id') <= 255), 'select' INTEGER NOT NULL); ",
+    "run_at": "2021-12-17 08:42:49"
+  },
+  "A63EE222C1E0E46E857FDA6E4E1AF657B3E71E4D": {
+    "status": true,
+    "query": "CREATE TABLE \"poll_select\" ('user_id' VARCHAR NOT NULL CHECK (length('user_id') <= 255), 'select_item' INTEGER NOT NULL); ",
+    "run_at": "2021-12-17 09:00:22"
+  },
+  "485E2FC32DECCA997CAF041DEF50B88C563322DC": {
+    "status": true,
+    "query": "CREATE TABLE \"poll_select\" ('user_id' VARCHAR NOT NULL CHECK (length('user_id') <= 255), 'select_item' VARCHAR NOT NULL CHECK (length('select_item') <= 255)); ",
+    "run_at": "2021-12-17 13:18:06"
+  }
+}
